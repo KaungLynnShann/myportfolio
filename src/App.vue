@@ -71,7 +71,7 @@ export default {
  .social-icons {
   position: fixed;
   bottom:100px;
-  left: 20%;
+  left: 23%;
   transform: translateX(-50%);
  }
  .copyright {
