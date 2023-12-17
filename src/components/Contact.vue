@@ -6,7 +6,7 @@
         Name: Kaung Lynn Shann<br/><br/>
         Ph No: 09760789941<br/><br/>
         Email: kaungshann.forjob@gmail.com<br/><br/>
-        Address: 3/7 kittyar Myothit,Pyay City<br/><br/>
+        Address: 3/7 kittyar Myothit,Pyay City<br/>
       </P>
      <a :href="'mailto:' + emailAddress"><v-btn color="blue">Send Mail</v-btn></a>
     </div>
