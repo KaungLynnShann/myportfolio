@@ -5,7 +5,7 @@
       <P>
         Name: Kaung Lynn Shann<br/><br/>
         Ph No: 09760789941<br/><br/>
-        Email: kaungshann.forjob@gmail.com<br/>
+        Email: kaungshann.forjob@gmail.com
       </P>
      <a :href="'mailto:' + emailAddress"><v-btn color="blue">Send Mail</v-btn></a>
     </div>
