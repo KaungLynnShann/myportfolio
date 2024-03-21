@@ -16,7 +16,7 @@
   export default {
   data() {
     return {
-      emailAddress: 'kaungshann.forjob@gmail.com', // Replace with your actual email address 
+      emailAddress: 'kaungshann.forjob@gmail.com',
     };
   },
 };
