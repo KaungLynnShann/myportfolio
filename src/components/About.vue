@@ -21,7 +21,7 @@
 <style scoped>
   .about{
     overflow-y: scroll;
-    height: auto;
+    height: 200px;
   }
 </style>
   
