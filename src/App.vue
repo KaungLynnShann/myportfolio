@@ -72,10 +72,13 @@ export default {
 </script>
 <style  scoped>
  .social-icons {
-  position: fixed;
-  bottom:100px;
-  left: 23%;
-  transform: translateX(-50%);
+    display: flex; 
+    justify-content: space-between;
+    margin-bottom: 50px;
+/*   position: fixed; */
+/*   bottom:100px; */
+/*   left: 23%; */
+/*   transform: translateX(-50%); */
  }
  .copyright {
   text-align: center;
