@@ -74,9 +74,9 @@ export default {
  .social-icons {
     display: flex; 
     justify-content: space-between;
-    margin-bottom: 50px;
+/*     margin-bottom: 50px; */
 /*   position: fixed; */
-/*   bottom:100px; */
+  bottom:100px;
 /*   left: 23%; */
 /*   transform: translateX(-50%); */
  }
