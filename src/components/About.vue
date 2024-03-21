@@ -1,11 +1,12 @@
 <template>
     <div>
       <h2>About Me</h2>
-      <p>My Name is Kaung Lynn Shann.I'm learning <span style="color: tomato;font-size: 1.5em;">JAVA SPRING BOOT </span>
-        and<span style="color:mediumseagreen;font-size: 1.5em;"> Vuejs</span>.
-        <br/>I wrote POS System project with team.Now,I'm still writing other project with myself.
-        <br/>I want to full stack developer.
-      </p>
+      <p style="font-weight: bold;">**I am Kaung Lynn Shann**, a passionate developer with a strong foundation in **Java Spring Boot** and **Vue.js**.</p>
+<p>I'm a highly motivated and results-oriented individual with a knack for problem-solving and a dedication to continuous learning. 
+    My strong analytical skills allow me to break down complex challenges and develop efficient solutions. 
+    I'm also a team player, always eager to collaborate and learn from others.</p>
+<p>This drive to excel fuels my pursuit of becoming a full-stack developer, and I'm actively seeking new challenges to further expand my skillset.</p>
+
     </div>
   </template>
   
