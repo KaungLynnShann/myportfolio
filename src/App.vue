@@ -11,7 +11,7 @@
        <div class="social-icons">
          <v-container>
            <h3>How to Reach Me</h3>
-           <v-spacer></v-spacer>
+           <br>
       <v-btn icon @click="openLink('https://www.facebook.com/are.pu1?mibextid=9R9pXO')" 
       style="margin-right: 20px;">
         <v-icon style="color: rgb(48, 18, 239);font-size: 40px;">mdi-facebook</v-icon>
