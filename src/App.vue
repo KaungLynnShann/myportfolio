@@ -9,6 +9,8 @@
       margin-top: 50px;"></v-img> 
 
        <div class="social-icons">
+         <v-container>
+           <h5>How to Reach Me</h5>
       <v-btn icon @click="openLink('https://www.facebook.com/are.pu1?mibextid=9R9pXO')" 
       style="margin-right: 20px;">
         <v-icon style="color: rgb(48, 18, 239);font-size: 40px;">mdi-facebook</v-icon>
@@ -28,7 +30,7 @@
         <img src="@/assets/discord.png" alt="Discord Icon" style="width: 40px; height: 40px;
         border-radius: 50%;"> 
       </v-btn>
-
+       </v-container>
       </div>
       <div class="copyright">
         <p>&copy; 2023 Kaung Lynn Shann. All rights reserved.</p>
