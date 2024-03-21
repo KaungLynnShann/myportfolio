@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class ="about">
       <h2>About Me</h2>
      <p style="font-weight: bold;">
   <span style="color: blue;">Kaung Lynn Shann</span>, a passionate developer with a strong foundation in 
@@ -18,4 +18,10 @@
     name: 'About',
   };
   </script>
+<style scoped>
+  .about{
+    overflow-y: scroll;
+    height: auto;
+  }
+</style>
   
