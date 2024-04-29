@@ -27,7 +27,6 @@
   }
 .content {
   overflow-y: auto;
-  max-height: calc(100vh - 100px);
 }
 </style>
   
