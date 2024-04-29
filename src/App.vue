@@ -14,21 +14,21 @@
            <br>
       <v-btn icon @click="openLink('https://www.facebook.com/are.pu1?mibextid=9R9pXO')" 
       style="margin-right: 20px;">
-        <v-icon style="color: rgb(48, 18, 239);font-size: 40px;">mdi-facebook</v-icon>
+        <v-icon style="background-color:white;color: rgb(48, 18, 239);font-size: 40px;">mdi-facebook</v-icon>
       </v-btn>
 
       <v-btn icon @click="openLink('https://www.reddit.com/u/blahblahbanyar?utm_medium=android_app&utm_source=share')" 
       style="margin-right:20px ;">
-       <v-icon style="color:tomato;font-size: 40px;">mdi-reddit</v-icon>
+       <v-icon style="background-color:white;color:tomato;font-size: 40px;">mdi-reddit</v-icon>
       </v-btn>
 
       <v-btn icon @click="openLink('https://github.com/KaungLynnShann')"
        style="margin-right: 20px;">
-        <v-icon style="color:black;font-size: 40px;">mdi-github</v-icon>
+        <v-icon style="background-color:white;color:black;font-size: 40px;">mdi-github</v-icon>
       </v-btn>
 
       <v-btn icon @click="openLink('https://Discord.com/users/750714070562373763')">
-        <img src="@/assets/discord.png" alt="Discord Icon" style="width: 40px; height: 40px;
+        <img src="@/assets/discord.png" alt="Discord Icon" style="background-color:white;width: 40px; height: 40px;
         border-radius: 50%;"> 
       </v-btn>
        </v-container>
