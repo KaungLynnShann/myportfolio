@@ -1,9 +1,9 @@
 <template>
   <v-app class="app">
     <v-container>
-      <v-btn color="blue" @click="navigate('home')">Home</v-btn>
-      <v-btn color="blue" @click="navigate('about')">About</v-btn>
-      <v-btn color="blue" @click="navigate('contact')">Contact</v-btn>
+      <v-btn style="background-color: coral;color: whitesmoke;" @click="navigate('home')">Home</v-btn>
+      <v-btn style="background-color: coral;color: whitesmoke;" @click="navigate('about')">About</v-btn>
+      <v-btn style="background-color: coral;color: whitesmoke;" @click="navigate('contact')">Contact</v-btn>
 
       <v-img src="@/assets/kaung.jpg" alt="Profile" style="width: 200px; height: 200px; border-radius: 50%;
       margin-top: 50px;"></v-img> 
