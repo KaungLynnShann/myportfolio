@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app class="app">
     <v-container>
       <v-btn color="blue" @click="navigate('home')">Home</v-btn>
       <v-btn color="blue" @click="navigate('about')">About</v-btn>
@@ -71,6 +71,10 @@ export default {
 };
 </script>
 <style  scoped>
+  .app{
+    background-color: black;
+    color: white;
+  }
  .social-icons {
     display: flex; 
     justify-content: space-between;
