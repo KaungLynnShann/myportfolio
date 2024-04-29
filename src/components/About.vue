@@ -1,6 +1,7 @@
 <template>
     <div class ="about">
       <h2>About Me</h2>
+    <div class="content">
      <p style="font-weight: bold;">
   <span style="color: blue;">Kaung Lynn Shann</span>, a passionate developer with a strong foundation in 
   <span style="color: tomato;">Java Spring Boot</span> and 
@@ -10,6 +11,7 @@
   My strong analytical skills allow me to break down complex challenges and develop efficient solutions.
   I'm also a team player, always eager to collaborate and learn from others. I'm actively seeking new challenges to further expand my skillset.
 </p>
+     </div>
     </div>
   </template>
   
@@ -20,8 +22,12 @@
   </script>
 <style scoped>
   .about{
-    overflow-y: scroll;
-    height: 200px;
+     max-width: 100%; 
+     padding: 0 20px;
   }
+.content {
+  overflow-y: auto;
+  max-height: calc(100vh - 100px);
+}
 </style>
   
