@@ -1,7 +1,7 @@
 <template>
     <div class ="about">
       <h2>About Me</h2>
-    <div class="content">
+    <div>
      <p style="font-weight: bold;">
   <span style="color: blue;">Kaung Lynn Shann</span>, a passionate developer with a strong foundation in 
   <span style="color: tomato;">Java Spring Boot</span> and 
@@ -24,9 +24,7 @@
   .about{
      max-width: 100%; 
      padding: 0 20px;
+     overflow-y: auto;
   }
-.content {
-  overflow-y: auto;
-}
 </style>
   
