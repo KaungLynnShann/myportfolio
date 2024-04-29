@@ -22,8 +22,8 @@
   </script>
 <style scoped>
   .about{
-     max-width: 100%; 
-     padding: 0 20px;
+/*      max-width: 100%;  */
+/*      padding: 0 20px; */
      overflow-y: auto;
   }
 </style>
