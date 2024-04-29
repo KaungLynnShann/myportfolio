@@ -28,7 +28,7 @@
       </v-btn>
 
       <v-btn icon @click="openLink('https://Discord.com/users/750714070562373763')">
-        <img src="@/assets/discord.png" alt="Discord Icon" style="background-color:white;width: 40px; height: 40px;
+        <img src="@/assets/discord.png" alt="Discord Icon" style="width: 40px; height: 40px;
         border-radius: 50%;"> 
       </v-btn>
        </v-container>
