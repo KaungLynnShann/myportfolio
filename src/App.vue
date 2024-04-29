@@ -88,10 +88,11 @@ export default {
   text-align: center;
   margin-top: 18px;
   padding: 10px;
-  background-color: #f0f0f0;
+  background-color: black;
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
+   color: white;
 }
 </style>
