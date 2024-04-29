@@ -72,7 +72,7 @@ export default {
 </script>
 <style  scoped>
   .app{
-    background-color: black;
+    background-color: teal;
     color: white;
   }
  .social-icons {
@@ -88,7 +88,7 @@ export default {
   text-align: center;
   margin-top: 18px;
   padding: 10px;
-  background-color: black;
+  background-color: teal;
   position: fixed;
   bottom: 0;
   left: 0;
