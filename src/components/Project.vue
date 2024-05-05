@@ -1,9 +1,9 @@
 <template>
     <div>
-      <v-container>
+      <v-container class="card">
         <v-row>
           <v-col v-for="(project, index) in projects" :key="index" cols="12" md="6" lg="4">
-            <v-card @click="toggleImageCarousel(index)" class="card">
+            <v-card @click="toggleImageCarousel(index)">
               <v-img :src="project.photos[0]" aspect-ratio="2"></v-img>
               <v-card-title>{{ project.name }}</v-card-title>
               <v-card-subtitle>
