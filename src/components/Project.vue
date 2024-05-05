@@ -16,7 +16,7 @@
       </v-container>
   
       <!-- Image Carousel Modal -->
-      <v-dialog v-model="showImageCarousel" max-width="80%">
+      <v-dialog v-model="showImageCarousel" width="70%">
         <v-carousel v-if="selectedProject" hide-delimiter-background>
           <v-carousel-item v-for="(photo, photoIndex) in selectedProject.photos" :key="photoIndex">
             <v-img :src="photo" aspect-ratio="2"></v-img>
