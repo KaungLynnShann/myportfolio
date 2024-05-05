@@ -103,7 +103,7 @@ export default {
   width: 100%;
    color: white;
 }
-  @media (max-width: 500px) {
+  @media (max-width: 300px) {
   .btn {
     margin-right: 0;
     margin-bottom: 5px;
