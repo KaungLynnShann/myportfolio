@@ -108,4 +108,5 @@ export default {
     margin-right: 0;
     margin-bottom: 5px;
   }
+  }
 </style>
