@@ -4,7 +4,7 @@
       <v-btn style="background-color: coral;color: whitesmoke;" @click="navigate('home')">Home</v-btn>
       <v-btn style="background-color: coral;color: whitesmoke;" @click="navigate('about')">About</v-btn>
       <v-btn style="background-color: coral;color: whitesmoke;" @click="navigate('contact')">Contact</v-btn>
-      <v-btn style="background-color: coral;color: whitesmoke;" @click="navigate('project')">Project</v-btn>
+       <v-btn style="background-color: coral;color: whitesmoke;" @click="navigate('project')">Project</v-btn>
 
       <v-img src="@/assets/kaung.jpg" alt="Profile" style="width: 200px; height: 200px; border-radius: 50%;
       margin-top: 50px;"></v-img> 
@@ -49,7 +49,7 @@
 import Home from './components/Home.vue';
 import About from './components/About.vue';
 import Contact from './components/Contact.vue';
-import Contact from './components/Project.vue';
+import Project from './components/Project.vue';
 
 export default {
   data() {
