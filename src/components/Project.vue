@@ -3,7 +3,7 @@
       <v-container>
         <v-row>
           <v-col v-for="(project, index) in projects" :key="index" cols="12" md="6" lg="4">
-            <v-card @click="toggleImageCarousel(index)">
+            <v-card @click="toggleImageCarousel(index)" class="card">
               <v-img :src="project.photos[0]" aspect-ratio="2"></v-img>
               <v-card-title>{{ project.name }}</v-card-title>
               <v-card-subtitle>
@@ -84,4 +84,8 @@
     }
   };
   </script>
+<style scoped>
+.card {
+  margin-bottom: 10px;
+}
   
