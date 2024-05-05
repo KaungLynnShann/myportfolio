@@ -1,10 +1,10 @@
 <template>
   <v-app class="app">
     <v-container>
-      <v-btn style="background-color: coral;color: whitesmoke;" @click="navigate('home')">Home</v-btn>
-      <v-btn style="background-color: coral;color: whitesmoke;" @click="navigate('about')">About</v-btn>
-      <v-btn style="background-color: coral;color: whitesmoke;" @click="navigate('contact')">Contact</v-btn>
-       <v-btn style="background-color: coral;color: whitesmoke;" @click="navigate('project')">Project</v-btn>
+      <v-btn class="btn" @click="navigate('home')">Home</v-btn>
+      <v-btn class="btn"  @click="navigate('about')">About</v-btn>
+      <v-btn class="btn"  @click="navigate('contact')">Contact</v-btn>
+       <v-btn class="btn" @click="navigate('project')">Project</v-btn>
 
       <v-img src="@/assets/kaung.jpg" alt="Profile" style="width: 200px; height: 200px; border-radius: 50%;
       margin-top: 50px;"></v-img> 
@@ -78,6 +78,11 @@ export default {
     background-color: teal;
     color: white;
   }
+  .btn{
+     background-color: coral !important;
+  color: whitesmoke !important;
+  margin-right: 5px;
+  }
  .social-icons {
     display: flex; 
     justify-content: space-between;
@@ -98,4 +103,9 @@ export default {
   width: 100%;
    color: white;
 }
+  @media (max-width: 500px) {
+  .btn {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
 </style>
