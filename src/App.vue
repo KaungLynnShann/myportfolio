@@ -79,9 +79,10 @@ export default {
     color: white;
   }
   .btn{
-     background-color: coral !important;
+  background-color: coral !important;
   color: whitesmoke !important;
   margin-right: 5px;
+    width: 80px;
   }
  .social-icons {
     display: flex; 
@@ -104,7 +105,7 @@ export default {
    color: white;
 }
   @media (max-width: 600px) {
-  .app {
+  .btn {
     margin-right: 0;
     margin-bottom: 5px;
   }
